@@ -1,0 +1,23 @@
+#heatmap {
+	height: 100vh;
+	overflow: scroll;
+	position: fixed;
+	width: 25%;
+}
+
+#heatmap span, #heatmap p {
+	line-height: 10px;
+	margin: 0;
+}
+
+#case {
+	float: right;
+	width: 75%;
+}
+
+.custom-tip {
+	border-bottom: none !important;
+	cursor: pointer !important;
+	display: block;
+	font-weight: normal !important;
+}
